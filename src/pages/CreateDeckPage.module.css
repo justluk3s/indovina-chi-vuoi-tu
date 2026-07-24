@@ -1,0 +1,26 @@
+.input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+.previews {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0;
+  max-width: 680px;
+}
+.previews figure {
+  margin: 0;
+}
+.previews img {
+  aspect-ratio: 1;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.65rem;
+}
+.previews button {
+  width: 100%;
+  min-height: 36px;
+}

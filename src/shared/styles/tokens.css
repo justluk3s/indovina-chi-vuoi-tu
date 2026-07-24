@@ -1,0 +1,25 @@
+:root {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+  color-scheme: light dark;
+  --bg: #f6f7fb;
+  --surface: #fff;
+  --text: #1c2030;
+  --accent: #5b42d6;
+  --focus: #ee8d12;
+  --shadow: 0 5px 20px #13162b20;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #161622;
+    --surface: #252536;
+    --text: #f4f3fb;
+    --accent: #aa9bff;
+    --focus: #ffbf59;
+    --shadow: 0 5px 20px #0008;
+  }
+}

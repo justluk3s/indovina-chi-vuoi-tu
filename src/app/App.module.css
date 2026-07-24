@@ -1,0 +1,19 @@
+.app {
+  min-height: 100dvh;
+  padding: max(1rem, env(safe-area-inset-top)) 1rem max(1rem, env(safe-area-inset-bottom));
+  max-width: 760px;
+  margin: auto;
+}
+.app main {
+  display: grid;
+  gap: 1rem;
+}
+.app header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+.app header h1 {
+  margin-right: auto;
+}
